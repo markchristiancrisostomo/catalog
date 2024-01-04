@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Garden Bench",
+        "image": "https://www.azumaoutdoor.co.uk/cdn/shop/products/azumaoutdoor-garden-bench-azuma-3-seat-wooden-bench-garden-hardwood-furniture-28373091647585.jpg?v=1676403512",
+        "description": "Beautiful wooden garden bench, perfect for your backyard.",
+        "price": 199.99
+    },
+    {
+        "name": "Indoor Plant Set",
+        "image": "https://rootbridges.com/cdn/shop/articles/What_Are_The_Basic_Needs_Of_The_Indoor_Plants_To_Survive_600x600_crop_center.jpg?v=1641212409",
+        "description": "Set of 4 indoor plants in decorative pots.",
+        "price": 49.99
+    },
+    {
+        "name": "Outdoor String Lights",
+        "image": "https://www.thespruce.com/thmb/0rvUBm_KCMCgBNz2bYGCR1bZ-UQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/string-light-ideas-outdoor-space-5186358_hero-grass-AI-9fd6a93bafa74efa9983eedf3373db89.jpg",
+        "description": "10ft long outdoor string lights for cozy evenings.",
+        "price": 29.99
+    },
+
+    {
+        "name": "Hanging Hammock Chair",
+        "image": "https://i.ebayimg.com/images/g/J7gAAOSwN6ZkjCS6/s-l1600.jpg",
+        "description": "Relaxing hanging hammock chair for indoor or outdoor use.",
+        "price": 79.99
+    },
+    {
+        "name": "Terracotta Planters Set",
+        "image": "https://theblissfulplace.com/cdn/shop/products/ipanema-planter-antico-terra-cotta-s-3-filled-with-plants-in-backyard.jpg?v=1669904500",
+        "description": "Set of 4 terracotta planters for various plants.",
+        "price": 39.99
+    },
+    {
+        "name": "Garden Hose with Nozzle",
+        "image": "https://www.thespruce.com/thmb/-honq3FJfC3sTNtsWEQcAqFIfX0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/hose-nozzles-Melnor65040-AMZXTMetalRearTriggerNozzle_DB_02-36591fabee8f4b4b939c926c073aced2.jpg",
+        "description": "50ft garden hose with adjustable nozzle for watering.",
+        "price": 24.99
+    },
+    {
+        "name": "Outdoor Dining Table Set",
+        "image": "https://img5.su-cdn.com/cdn-cgi/image/width=600,height=600/mall/file/2022/07/27/366fc3c511ee8d66e4035e48e2e46eb2.jpg",
+        "description": "Wooden outdoor dining table set for 4 people.",
+        "price": 299.99
+    },
+    {
+        "name": "Solar-Powered Garden Lights",
+        "image": "https://m.media-amazon.com/images/I/91VXTSHmN1S.jpg",
+        "description": "Set of 6 solar-powered garden lights for pathways.",
+        "price": 39.99
+    },
+    {
+        "name": "Patio Umbrella",
+        "image": "https://down-ph.img.susercontent.com/file/a5cbaa2e3b87ff7eccb4c584d2aad232",
+        "description": "Large patio umbrella for shade on sunny days.",
+        "price": 89.99
+    },
+    {
+        "name": "Succulent Assortment",
+        "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71gstSMd6sL._AC_UF894,1000_QL80_.jpg",
+        "description": "Assortment of 8 different succulents for indoor or outdoor decor.",
+        "price": 19.99
+    },
+    {
+        "name": "Gardening Tool Set",
+        "image": "https://www.acehardware.ph/cdn/shop/products/2a-jpg_bc639_1200x1200.jpg?v=1630203908",
+        "description": "Set of essential gardening tools with a carrying bag.",
+        "price": 29.99
+    },
+    {
+        "name": "Decorative Bird Bath",
+        "image": "https://i.ebayimg.com/images/g/08gAAOSw9ytdMwcK/s-l1200.jpg",
+        "description": "Stone-based decorative bird bath for your garden.",
+        "price": 49.99
+    }
+
+]

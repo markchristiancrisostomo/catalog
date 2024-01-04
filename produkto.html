@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home and Garden Catalog</title>
+</head>
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4; /* Light gray background */
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #82b74b; /* Green header */
+        color: #fff; /* White text */
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    footer {
+        background-color: #c8c8c8; /* Light gray footer */
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    #products-display {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .product-item {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 15px;
+        padding: 20px;
+        width: 300px;
+        height: 600px; /* Set a fixed height */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item-image {
+        max-width: 100%;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        flex-grow: 1; /* Allow image to take remaining space */
+    }
+
+    .product-name {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .product-description {
+        color: #555;
+        margin-bottom: 10px;
+        flex-grow: 1; /* Allow description to take remaining space */
+    }
+
+    .product-price {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .add-to-cart-button {
+        background-color: #82b74b;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .add-to-cart-button:hover {
+        background-color: #6a9645;
+    }
+</style>
+<body>
+    <header><h1>Green Haven Home & Garden</h1></header>
+    <footer>&copy; Mark Christian Crisostomo</footer>
+
+    <div id="products-display"></div>
+    <script>
+        fetch('home_garden.json') 
+            .then(response => response.json())
+            .then(homeGardenInventory => {
+                let productsDisplay = "";
+                for (const product of homeGardenInventory) {
+                    productsDisplay += `
+                        <div class="product-item">
+                            <img src="${product.image}" alt="${product.name}" class="item-image">
+                            <h3 class="product-name">${product.name}</h3>
+                            <p class="product-description">${product.description}</p>
+                            <p class="product-price">$${product.price}</p>
+                            <button class="add-to-cart-button">Add to Cart</button>
+                        </div>
+                    `;
+                }
+                document.querySelector("#products-display").innerHTML = productsDisplay;
+            })
+    </script>
+</body>
+</html>
